@@ -108,16 +108,6 @@ async def _(e):
         return e.reply("**Sorry You're not An Authorised User!**")
     await test(e)
 
-@bot.on_message(filters.NewMessage(pattern="/restart") )
-async def restart_command(_, message):
-     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Sorry You're not An Authorised User!**")
-    await message.reply("Restarting the bot...")
- os.system("pkill -f 'python bot.py'")
-
-if __name__ == "__main__":
-    bot.run()
-
     
 
 ########## Direct ###########
