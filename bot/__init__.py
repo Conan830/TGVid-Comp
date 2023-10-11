@@ -1,6 +1,7 @@
 # https://github.com/1Danish-00/CompressorQueue/blob/main/License> .
 
 import logging
+from pyrogram import Client, filters
 import asyncio
 import glob
 import inspect
