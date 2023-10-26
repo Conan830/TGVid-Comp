@@ -9,11 +9,11 @@
     "env": {
         "APP_ID": {
             "description": "You api id get it from my.telegram.org or @apiScrapperRoBot",
-            "value": "21248399"
+            "value": "28707004"
         },
         "API_HASH": {
             "description": "You api hash get it from my.telegram.org or @apiScrapperRoBot.",
-            "value": "906dd477689ce11a9cd480933284ce7a"
+            "value": "3b9265c1adade1a9633bec2f42afe07b"
         },
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather and enter it's api token",
